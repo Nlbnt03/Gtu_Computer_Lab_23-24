@@ -1,0 +1,11 @@
+-mkdir CSE107
+-cd CSE107/
+-mkdir 1.Section
+-cd 1.Section/
+-touch lab2.txt
+-touch yourId.csv
+-cat lab2.txt
+-pwd
+-rm -rf yourId.csv
+
+

@@ -1,0 +1,19 @@
+00|01	LOAD2 03A LOAD R0 with value 3Ahex(111010bin,58dec)
+
+02|03	LOAD2 130 LOAD R1 with value 30hex(110000bin,48dec)
+
+04|05	LOAD2 201 LOAD R2 with value 01hex(1bin,1dec)
+
+06|07	LOAD2 3E0 LOAD R3 with value E0hex(11100000bin,224dec)
+
+08|09	JUMP  112 JUMP to instruction in Cell12 if data from R1 equals R0
+
+0A|0B	WRITE 103 WRITE bits from R1 to Cell with address from R3
+
+0C|0D	ADD1  112 ADD data from R1 and R2 to R1 (Two Complement)
+
+0E|0F	ADD1  332 ADD data from R3 and R2 to R3 (Two Complement)
+
+10|11	JUMP  008 JUMP to instruction in Cell08 if data from R0 equals R0
+
+12|13	HALT  000 HALT
