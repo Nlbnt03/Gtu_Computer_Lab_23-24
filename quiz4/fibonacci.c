@@ -6,7 +6,6 @@ int main()
 	scanf("%d",&n);
 	
 	int	i = 0;
-	int	result = 0;
 	int 	dizi[n];	
 	
 	while (i != n)
@@ -32,8 +31,16 @@ int main()
 	printf("İlk %d terim :",n);
 	while (i < n)
 	{
-		printf("%d, ", dizi[i]);
-		i++;
+		if ( i == (n - 1))
+		{
+			printf("%d", dizi[i]);
+			break;
+		}
+		else
+		{
+			printf("%d, ", dizi[i]);
+                	i++;
+		}
 	}
 	
 }
