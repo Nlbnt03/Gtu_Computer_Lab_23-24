@@ -38,7 +38,6 @@ int main()
 		{
 			sayilar[i] = begin;
 			i++;
-			begin++;
 		}
 		begin++;
 	}
@@ -48,5 +47,6 @@ int main()
 		printf("%d, ",sayilar[j]);
 		j++;
 	}
+	printf("\n");
 
 }
